@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-audio-sender",
   "description": "通过语音发送文件名与消息内容相同的音频文件",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,6 +9,11 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/windbullet/koishi-plugin-audio-sender",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-audio-sender.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
