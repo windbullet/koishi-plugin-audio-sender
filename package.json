@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-audio-sender",
-  "description": "指定关键词发送指定音频",
-  "version": "0.0.1",
+  "description": "通过语音发送文件名与消息内容相同的音频文件",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,12 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "4.15.7"
+    "koishi": "^4.15.7"
   }
 }
